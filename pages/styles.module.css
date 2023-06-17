@@ -1,0 +1,174 @@
+/* styles.module.css */
+/*.countryName {
+    color: blue;
+    font-weight: bold;
+    margin-left: 50px;
+    font-family: Rubik,ui-sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(255 122 25/var(--tw-text-opacity));
+    --tw-text-opacity: 1;
+    
+  }
+  
+  .phoneCode {
+    color: green;
+  }
+  .main{
+    
+    min-height: 100vh;
+    background-image: url("https://img.freepik.com/free-vector/starry-night-background-design_1114-17.jpg?w=740&t=st=1686073445~exp=1686074045~hmac=1673a34b953012bcee84bae1a2c101c2e6a83ba62e9d9e7ede61464d3ba925a8");
+    display: flex;
+  flex-direction: row;
+  }
+
+  .sidebar {
+    flex: 2.3;
+    width: 100%;
+    min-height: 100vh;
+    /*background: #e9e9e9;
+    background-color: rgb(255 236 222/var(--tw-bg-opacity));
+    --tw-bg-opacity: 1;*/
+    /*background-image: url("https://img.freepik.com/free-vector/starry-night-background-design_1114-17.jpg?w=740&t=st=1686073445~exp=1686074045~hmac=1673a34b953012bcee84bae1a2c101c2e6a83ba62e9d9e7ede61464d3ba925a8");
+    margin: 10px 20px;
+    border-radius: 20px;
+  }
+  .maincont {
+    flex: 4;
+    width: 100%;
+    min-height: 100vh;
+    background: #fff;
+    background: #e9e9e9;
+    background-color: rgb(255 236 222/var(--tw-bg-opacity));
+    --tw-bg-opacity: 1;
+    margin: 10px 20px;
+    border-radius: 20px;
+  }
+  .heading{
+    font-weight: bold;
+    margin-left: 50px;
+    font-family: Rubik,ui-sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(255 122 25/var(--tw-text-opacity));
+    --tw-text-opacity: 1;
+  }*/
+
+  .main{
+    background-image: url("https://img.freepik.com/free-photo/smooth-blue-wooden-textured-background_53876-108424.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 100% 100%;
+    
+  }
+
+    .search {
+      width: 350px; 
+      height: 48px;
+      padding: 10px;
+      border: 2px solid #fcfcfc; 
+      border-radius: 5px; 
+      font-size: 16px;
+      margin:  auto;
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.4;
+  background-color: #fcfcfc;
+  
+  
+    }
+    
+   
+    .search::placeholder {
+      font-size: larger;
+      color: #060606; 
+      opacity: 0.9; 
+    }
+
+    
+  .heading{
+    font-family: Rubik,ui-sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: bisque;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  .countryName {
+    
+    font-weight: bold;
+    margin-left: 50px;
+    font-family: Rubik,ui-sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+   color: bisque;
+    align-items: center;
+    /*margin-left: 550px;*/
+    text-align: center;
+    
+    
+  }
+
+  .phoneCode {
+    color: rgb(246, 252, 246);
+    font-size: 2rem;
+    margin-right: 50px;
+  }
+
+  .box{
+    border-width: 1px;
+    border-radius: 0.5rem;
+    width: 50rem;
+    margin: 0 auto;
+    --tw-space-y-reverse: 0;
+    margin-bottom: calc(1rem*var(--tw-space-y-reverse));
+    margin-top: calc(1rem*(1 - var(--tw-space-y-reverse)));
+    display: flex;
+  justify-content: space-between;
+  }
+  
+  /* styles.module.css */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #333;
+  color: #fff;
+}
+/* styles.module.css */
+
+.prevButton {
+  background-color: #f2f2f2;
+  color: #333333;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.nextButton {
+  background-color: #f2f2f2;
+  color: #333333;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
